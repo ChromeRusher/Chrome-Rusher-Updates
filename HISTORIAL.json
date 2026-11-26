@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "startVersion": "1.0.0",
   "orderedChannel": "ordered",
   "legacyChannel": "latest",
@@ -9,231 +9,321 @@
       "index": 0,
       "version": "1.0.0",
       "previousVersion": "3.0.0",
+      "previousCanonicalVersion": "1.0.0",
+      "compatibilityVersions": [],
+      "kind": "base",
+      "summary": "Ocho minijuegos, Laboratorio y progreso local.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 1,
-      "version": "1.0.1",
+      "version": "1.1.0",
       "previousVersion": "3.0.1",
+      "previousCanonicalVersion": "1.0.1",
+      "compatibilityVersions": ["1.0.1"],
+      "kind": "minor",
+      "summary": "Actualizaciones manuales y automáticas de Windows con verificación de descarga.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 2,
-      "version": "1.0.2",
+      "version": "1.2.0",
       "previousVersion": "3.1.0",
+      "previousCanonicalVersion": "1.0.2",
+      "compatibilityVersions": ["1.0.2"],
+      "kind": "minor",
+      "summary": "NEON DREAM ARCADE, práctica de los ocho motores, audio y ajustes de accesibilidad.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 3,
-      "version": "1.0.3",
+      "version": "1.3.0",
       "previousVersion": "3.2.0",
+      "previousCanonicalVersion": "1.0.3",
+      "compatibilityVersions": ["1.0.3"],
+      "kind": "minor",
+      "summary": "Regiones de Campaña, música ampliada y celebraciones vinculadas al progreso.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 4,
-      "version": "1.0.4",
+      "version": "1.4.0",
       "previousVersion": "3.3.0",
+      "previousCanonicalVersion": "1.0.4",
+      "compatibilityVersions": ["1.0.4"],
+      "kind": "minor",
+      "summary": "Lumi interactiva y acceso integrado al Laboratorio.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 5,
-      "version": "1.0.5",
+      "version": "1.5.0",
       "previousVersion": "3.4.0",
+      "previousCanonicalVersion": "1.0.5",
+      "compatibilityVersions": ["1.0.5"],
+      "kind": "minor",
+      "summary": "Colección de 90 trofeos y avisos durante la partida.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 6,
-      "version": "1.0.6",
-      "previousVersion": "3.4.1",
+      "version": "1.6.0",
+      "previousVersion": "3.5.0",
+      "previousCanonicalVersion": "1.0.7",
+      "compatibilityVersions": ["1.0.7", "1.0.6", "3.4.1"],
+      "kind": "minor",
+      "summary": "Diez idiomas sin conexión y preparación de los puertos Android e iOS.",
       "platforms": {
         "windows": true,
-        "android": false,
-        "ios": false
-      }
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": [
+        {
+          "version": "3.4.1",
+          "previousCanonicalVersion": "1.0.6",
+          "reason": "Preparación incorporada a esta publicación; no genera una versión SemVer independiente."
+        }
+      ]
     },
     {
       "index": 7,
-      "version": "1.0.7",
-      "previousVersion": "3.5.0",
+      "version": "1.6.1",
+      "previousVersion": "3.5.2",
+      "previousCanonicalVersion": "1.0.9",
+      "compatibilityVersions": ["1.0.9", "1.0.8", "3.5.1"],
+      "kind": "patch",
+      "summary": "Calidad automática, reducción de bloqueos y reparaciones de mantenimiento de la preparación anterior.",
       "platforms": {
         "windows": true,
-        "android": true,
-        "ios": true
-      }
+        "android": false,
+        "ios": false
+      },
+      "includedPreparations": [
+        {
+          "version": "3.5.1",
+          "previousCanonicalVersion": "1.0.8",
+          "reason": "Preparación incorporada a esta publicación; no genera una versión SemVer independiente."
+        }
+      ]
     },
     {
       "index": 8,
-      "version": "1.0.8",
-      "previousVersion": "3.5.1",
+      "version": "1.7.0",
+      "previousVersion": "3.6.0",
+      "previousCanonicalVersion": "1.0.11",
+      "compatibilityVersions": ["1.0.11", "1.0.10", "3.5.3"],
+      "kind": "minor",
+      "summary": "Treinta misiones, personalización, temas y lista de reproducción.",
       "platforms": {
         "windows": true,
-        "android": false,
-        "ios": false
-      }
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": [
+        {
+          "version": "3.5.3",
+          "previousCanonicalVersion": "1.0.10",
+          "reason": "Preparación incorporada a esta publicación; no genera una versión SemVer independiente."
+        }
+      ]
     },
     {
       "index": 9,
-      "version": "1.0.9",
-      "previousVersion": "3.5.2",
+      "version": "1.7.1",
+      "previousVersion": "3.6.1",
+      "previousCanonicalVersion": "1.0.12",
+      "compatibilityVersions": ["1.0.12"],
+      "kind": "patch",
+      "summary": "Navegación, continuación de misiones y recuperación sin duplicar recompensas.",
       "platforms": {
         "windows": true,
-        "android": false,
-        "ios": false
-      }
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": []
     },
     {
       "index": 10,
-      "version": "1.0.10",
-      "previousVersion": "3.5.3",
+      "version": "1.8.0",
+      "previousVersion": "3.6.2",
+      "previousCanonicalVersion": "1.0.13",
+      "compatibilityVersions": ["1.0.13"],
+      "kind": "minor",
+      "summary": "Reproductor, tiempos, compañeros por XP y conjuntos legendarios.",
       "platforms": {
         "windows": true,
-        "android": false,
-        "ios": false
-      }
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": []
     },
     {
       "index": 11,
-      "version": "1.0.11",
-      "previousVersion": "3.6.0",
+      "version": "1.9.0",
+      "previousVersion": "3.6.3",
+      "previousCanonicalVersion": "1.0.14",
+      "compatibilityVersions": ["1.0.14"],
+      "kind": "minor",
+      "summary": "Libro de 80 recetas, colores secretos y recompensas nuevas.",
       "platforms": {
         "windows": true,
         "android": true,
         "ios": true
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 12,
-      "version": "1.0.12",
-      "previousVersion": "3.6.1",
+      "version": "1.10.0",
+      "previousVersion": "3.6.4",
+      "previousCanonicalVersion": "1.0.15",
+      "compatibilityVersions": ["1.0.15"],
+      "kind": "minor",
+      "summary": "Ocho mascotas secretas y variaciones adaptativas de Campaña.",
       "platforms": {
         "windows": true,
         "android": true,
         "ios": true
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 13,
-      "version": "1.0.13",
-      "previousVersion": "3.6.2",
+      "version": "1.11.0",
+      "previousVersion": "3.7.0",
+      "previousCanonicalVersion": "1.0.16",
+      "compatibilityVersions": ["1.0.16"],
+      "kind": "minor",
+      "summary": "Prism Orbit, Starweave, Color Bloom y cinco dificultades manuales.",
       "platforms": {
         "windows": true,
         "android": true,
         "ios": true
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 14,
-      "version": "1.0.14",
-      "previousVersion": "3.6.3",
+      "version": "1.12.0",
+      "previousVersion": "3.7.1",
+      "previousCanonicalVersion": "1.0.17",
+      "compatibilityVersions": ["1.0.17"],
+      "kind": "minor",
+      "summary": "Dificultad Imposible desbloqueable y récord de dificultad por misión.",
       "platforms": {
         "windows": true,
         "android": true,
         "ios": true
-      }
+      },
+      "includedPreparations": []
     },
     {
       "index": 15,
-      "version": "1.0.15",
-      "previousVersion": "3.6.4",
-      "platforms": {
-        "windows": true,
-        "android": true,
-        "ios": true
-      }
-    },
-    {
-      "index": 16,
-      "version": "1.0.16",
-      "previousVersion": "3.7.0",
-      "platforms": {
-        "windows": true,
-        "android": true,
-        "ios": true
-      }
-    },
-    {
-      "index": 17,
-      "version": "1.0.17",
-      "previousVersion": "3.7.1",
-      "platforms": {
-        "windows": true,
-        "android": true,
-        "ios": true
-      }
-    },
-    {
-      "index": 18,
-      "version": "1.0.18",
+      "version": "1.13.0",
       "previousVersion": "3.7.2",
+      "previousCanonicalVersion": "1.0.18",
+      "compatibilityVersions": ["1.0.18"],
+      "kind": "minor",
+      "summary": "Interacciones con mascotas, perfil y cliente de comunidad, y modos de ventana de Windows.",
       "platforms": {
         "windows": true,
         "android": false,
         "ios": false
-      }
+      },
+      "includedPreparations": []
+    },
+    {
+      "index": 16,
+      "version": "1.14.0",
+      "previousVersion": "3.7.3",
+      "previousCanonicalVersion": "1.0.19",
+      "compatibilityVersions": ["1.0.19"],
+      "kind": "minor",
+      "summary": "Siete desafíos cognitivos, Campaña por capítulos, Arcade variado, combos, adaptación y feedback.",
+      "platforms": {
+        "windows": true,
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": []
+    },
+    {
+      "index": 17,
+      "version": "1.14.1",
+      "previousVersion": "3.7.4",
+      "previousCanonicalVersion": "1.0.20",
+      "compatibilityVersions": ["1.0.20"],
+      "kind": "patch",
+      "summary": "Legibilidad y organización de los menús; corrección de rejilla y estelas de fondo.",
+      "platforms": {
+        "windows": true,
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": []
+    },
+    {
+      "index": 18,
+      "version": "1.15.0",
+      "previousVersion": "3.7.5",
+      "previousCanonicalVersion": "1.0.21",
+      "compatibilityVersions": ["1.0.21"],
+      "kind": "minor",
+      "summary": "Selector de dificultad global disponible en la cabecera de todas las pestañas.",
+      "platforms": {
+        "windows": true,
+        "android": true,
+        "ios": true
+      },
+      "includedPreparations": []
     },
     {
       "index": 19,
-      "version": "1.0.19",
-      "previousVersion": "3.7.3",
+      "version": "1.15.1",
+      "previousVersion": "1.0.22",
+      "previousCanonicalVersion": "1.0.22",
+      "compatibilityVersions": [],
+      "kind": "patch",
+      "summary": "Pulido adaptable de la barra demoníaca y reclasificación SemVer solicitada, con compatibilidad de actualización.",
       "platforms": {
         "windows": true,
         "android": true,
         "ios": true
-      }
-    },
-    {
-      "index": 20,
-      "version": "1.0.20",
-      "previousVersion": "3.7.4",
-      "platforms": {
-        "windows": true,
-        "android": true,
-        "ios": true
-      }
-    },
-    {
-      "index": 21,
-      "version": "1.0.21",
-      "previousVersion": "3.7.5",
-      "platforms": {
-        "windows": true,
-        "android": true,
-        "ios": true
-      }
-    },
-    {
-      "index": 22,
-      "version": "1.0.22",
-      "previousVersion": null,
-      "platforms": {
-        "windows": true,
-        "android": true,
-        "ios": true
-      }
+      },
+      "includedPreparations": []
     }
-  ]
+  ],
+  "namingPolicy": "semantic",
+  "reclassifiedFrom": "1.0.22"
 }
