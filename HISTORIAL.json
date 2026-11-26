@@ -224,6 +224,16 @@
         "android": true,
         "ios": true
       }
+    },
+    {
+      "index": 22,
+      "version": "1.0.22",
+      "previousVersion": null,
+      "platforms": {
+        "windows": true,
+        "android": true,
+        "ios": true
+      }
     }
   ]
 }
