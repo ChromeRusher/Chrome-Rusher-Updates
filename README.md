@@ -1,21 +1,25 @@
 # Chrome Rusher
 
-**Versión actual: 1.0.21.**
+**Versión actual: 1.0.22.**
 
-- [Descargar Windows 1.0.21](https://github.com/ChromeRusher/Chrome-Rusher-Updates/releases/download/v1.0.21/Chrome-Rusher-Instalador-1.0.21-x64.exe)
-- [Descargar Android 1.0.21](https://github.com/ChromeRusher/Chrome-Rusher-Android-Updates/releases/download/v1.0.21/Chrome-Rusher-Android-1.0.21.apk)
+- [Descargar Windows 1.0.22](https://github.com/ChromeRusher/Chrome-Rusher-Updates/releases/download/v1.0.22/Chrome-Rusher-Instalador-1.0.22-x64.exe)
+- [Descargar Android 1.0.22](https://github.com/ChromeRusher/Chrome-Rusher-Android-Updates/releases/download/v1.0.22/Chrome-Rusher-Android-1.0.22.apk)
+
+Esta actualización incorpora la barra de dificultad animada: la selección, el
+indicador y la carita se desplazan juntos y se adaptan al espacio del menú.
+Respeta las preferencias de movimiento reducido.
 
 iOS permanece como fuente preparada; no se distribuye un IPA firmado.
 
 ## Historial ordenado
 
-La serie comienza en **1.0.0**. Hay **22 etapas**: 1.0.0 es la primera, 1.0.1
-la segunda y 1.0.21 la actual. Los números anteriores se conservan como
-referencias de compatibilidad, con sus enlaces y archivos originales.
+La serie comienza en **1.0.0**. Hay **23 etapas**: 1.0.0 es la primera, 1.0.1
+la segunda y 1.0.22 la actual. Las referencias anteriores conservan sus
+enlaces y archivos originales. Las futuras publicaciones siguen versionado semántico:
+PATCH para correcciones compatibles, MINOR para funciones nuevas y MAJOR para rupturas.
 
 Los paquetes históricos conservan el contenido jugable de su edición original.
-Sus metadatos de versión se han renumerado. La opción recomendada para jugar
-es la versión actual 1.0.21. PROVENANCE.json documenta la procedencia de cada archivo.
+Sus metadatos de versión se han renumerado. PROVENANCE.json documenta su procedencia.
 
 | Versión | Referencia anterior | Windows | Android | iOS |
 | --- | --- | --- | --- | --- |
@@ -41,13 +45,14 @@ es la versión actual 1.0.21. PROVENANCE.json documenta la procedencia de cada a
 | 1.0.19 | 3.7.3 | [Instalador](https://github.com/ChromeRusher/Chrome-Rusher-Updates/releases/download/v1.0.19/Chrome-Rusher-Instalador-1.0.19-x64.exe) | [APK](https://github.com/ChromeRusher/Chrome-Rusher-Android-Updates/releases/download/v1.0.19/Chrome-Rusher-Android-1.0.19.apk) | Fuente, sin IPA |
 | 1.0.20 | 3.7.4 | [Instalador](https://github.com/ChromeRusher/Chrome-Rusher-Updates/releases/download/v1.0.20/Chrome-Rusher-Instalador-1.0.20-x64.exe) | [APK](https://github.com/ChromeRusher/Chrome-Rusher-Android-Updates/releases/download/v1.0.20/Chrome-Rusher-Android-1.0.20.apk) | Fuente, sin IPA |
 | 1.0.21 | 3.7.5 | [Instalador](https://github.com/ChromeRusher/Chrome-Rusher-Updates/releases/download/v1.0.21/Chrome-Rusher-Instalador-1.0.21-x64.exe) | [APK](https://github.com/ChromeRusher/Chrome-Rusher-Android-Updates/releases/download/v1.0.21/Chrome-Rusher-Android-1.0.21.apk) | Fuente, sin IPA |
+| 1.0.22 | — | [Instalador](https://github.com/ChromeRusher/Chrome-Rusher-Updates/releases/download/v1.0.22/Chrome-Rusher-Instalador-1.0.22-x64.exe) | [APK](https://github.com/ChromeRusher/Chrome-Rusher-Android-Updates/releases/download/v1.0.22/Chrome-Rusher-Android-1.0.22.apk) | Fuente, sin IPA |
 
 ## Compatibilidad
 
 Se mantienen las identidades de instalación y el formato de las partidas. Las
 instalaciones Windows 3.x pueden migrar mediante el actualizador a la serie 1.x.
-Android conserva la firma original y los contadores de compilación que impiden
-downgrades; 1.0.21 usa versionCode 13.
+Android conserva la firma original y los contadores que impiden downgrades;
+1.0.22 usa versionCode 14.
 
 Windows se distribuye sin firma Authenticode comercial por autorización del
 propietario. La release actual incluye SECURITY-EXCEPTION.json.
